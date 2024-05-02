@@ -1,1 +1,71 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  width: 100vw;
+  height: 10vh;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px;
+}
+.text-message-box {
+    position: relative;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 15vw;
+    margin: 10px 5px;
+    padding: 20px;
+    background-color: rgb(7, 190, 7);
+
+}
+.text-message-box1 {
+    position: relative;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 15vw;
+    margin: 10px 5px;
+    padding: 20px;
+    background-color: rgb(169, 169, 169);
+}
+.left-text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-start;
+  }
+.left-text-message {
+    position: relative;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 15vw;
+    margin: 10px 5px;
+    padding: 20px;
+    background-color: rgb(119, 119, 119);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3px;
+    right: -3px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 55%;
+    width: 35px;
+    height: 35px;
+    color: white;
+    
+}
