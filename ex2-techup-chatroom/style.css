@@ -1,1 +1,140 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Sarabun;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 8vh;
+  background-color: gray;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.chat {
+  padding: 35px 20px 0px 20px;
+}
+.chat-sent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 10px;
+}
+.chat-recip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.chat1,
+.chat2,
+.chat3,
+.chat4,
+.chat5 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 15px;
+}
+/* .chat1, */
+.chat3 {
+  background-color: mediumseagreen;
+  border-radius: 25px;
+}
+.chat2 {
+  background-color: gainsboro;
+  border-radius: 25px;
+  position: relative;
+}
+
+.chat4,
+.chat5 {
+  background-color: gray;
+  border-radius: 25px;
+}
+
+.cancle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: gray;
+  border-radius: 100%;
+  position: absolute;
+  top: -5px;
+  right: 0px;
+}
+
+.chat1 {
+  background-color: mediumseagreen;
+  border-radius: 25px;
+  position: relative;
+}
+
+.chat1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  right: -15px;
+  height: 20px;
+  border-right: 20px solid mediumseagreen;
+  border-bottom-right-radius: 25px 20px;
+  transform: translate(0, -4px);
+}
+
+.chat1:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-bottom-left-radius: 40px 35px;
+  transform: translate(0px, -20px);
+}
+/* .tail {
+  width: 200px;
+  padding: 20px;
+  margin-right: 20px;
+  background: mediumseagreen;
+  color: #fff;
+  position: relative;
+  border-radius: 25px;
+}
+
+.tail:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 14px;
+  right: -18px;
+  height: 20px;
+  border-right: 20px solid mediumseagreen;
+  border-bottom-right-radius: 25px 20px;
+  transform: translate(0, -4px);
+  box-shadow: -3px 3px 5px #c1b9c8;
+}
+
+.tail:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  right: -18px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-bottom-left-radius: 40px 35px;
+  transform: translate(0px, -20px);
+} */
