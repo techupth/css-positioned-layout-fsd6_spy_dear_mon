@@ -20,7 +20,7 @@ header {
     align-items: flex-end;
     padding: 40px;
 }
-.text-message-box {
+.text-message {
     position: relative;
     font-size: 18px;
     border-radius: 30px;
